@@ -1,0 +1,27 @@
+h2{
+    font-size: 24px;
+    }
+    .logo-wrapper{
+        margin: 0px;
+    }
+    .treatments{
+        background-color: #e7f4cf;
+        padding-top: 15px;
+    }
+    .treatments .treatment-title{
+        text-align: center;
+    }
+    .treatments .treatment-content{
+        padding-bottom: 15px;
+    }
+    .treatment-images{
+        padding: 60px 0px;
+    }
+    .treatment-images .def-image{
+        margin-bottom: 50px;
+    }
+    .treatment-images .def-image img{
+        margin: 0 auto;
+        width: 300px;
+        height: 230px;
+    }

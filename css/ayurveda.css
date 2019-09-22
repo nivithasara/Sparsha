@@ -1,0 +1,63 @@
+h2{
+font-size: 24px;
+}
+.logo-wrapper{
+    margin: 0px;
+}
+.ayurveda{
+    background-color: #e7f4cf;
+    padding-top: 15px;
+}
+.ayurveda .ayurveda-title{
+    text-align: center;
+}
+.ayurveda .ayurveda-content{
+    padding-bottom: 15px;
+}
+.ayurveda .ayurveda-content ul{
+    padding: 0px;
+    font-size: 16px;
+}
+.ayurveda .ayurveda-content ul li{
+    list-style-type: none;
+    font-style: 16px;
+}
+.definition{
+    padding: 60px 0px;
+}
+.definition .def-image img{
+    width: 100%;
+}
+.definition .def-content h2,
+.definition .def-content p{
+ text-align: center;
+}
+.definition .def-content p:last-of-type{
+    width: 60%;
+    margin: 0 auto;
+}
+@media all and (max-width: 767px){
+.ayurveda .ayurveda-content p,
+.ayurveda .ayurveda-content ul{
+    font-size: 14px;
+}
+}
+@media all and (min-width:768px) and (max-width: 1014px){
+.definition .def-content h2{
+    margin-top: 0px;
+}
+.definition .def-content p:last-of-type{
+    width: 80%;
+}
+}
+.treatment-images{
+    padding: 60px 0px;
+}
+.treatment-images .def-image{
+    margin-bottom: 50px;
+}
+.treatment-images .def-image img{
+    margin: 0 auto;
+    width: 300px;
+    height: 230px;
+}
