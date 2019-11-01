@@ -1,0 +1,67 @@
+    h2{
+    font-size: 24px;
+    }
+    .logo-wrapper{
+        margin: 0px;
+    }
+    .treatments{
+        background-color: #e7f4cf;
+        padding-top: 15px;
+    }
+    .treatments .treatment-title{
+        text-align: center;
+    }
+    .treatments .treatment-content{
+        padding-bottom: 15px;
+    }
+    .treatment-images{
+        padding: 60px 0px;
+    }
+    .treatment-images .def-image{
+        margin-bottom: 50px;
+    }
+    .treatment-images .def-image img{
+        margin: 0 auto;
+        width: 300px;
+        height: 215px;
+    }
+    .treatment-options{
+        padding: 70px;
+    }
+    .treatment-options .tab{
+        text-align: center;
+    }
+    .treatment-options a.tablinks{
+        font-size: 16px;
+        padding: 0 20px;
+        border-right: 1px solid #000;
+    }
+    .treatment-options a.tablinks:last-of-type{
+        border-right: 0;
+    }
+    .treatment-options .treatment-card{
+        text-align: center;
+        border: 1px solid #f7f7f7;
+        padding: 0;
+    }
+    .treatment-options .treatment-card img{
+        margin: 0 auto;
+    }
+    .treatment-options .treatment-details{
+        padding: 30px 0;
+    }
+    .book-btn{
+        padding-bottom: 40px;
+    }
+    .book-btn a{
+        height: 40px;
+        width: 100px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C0D993;
+        border-color: #C0D993;
+    }

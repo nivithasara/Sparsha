@@ -1,0 +1,238 @@
+/* Fonts css*/
+
+body {
+	font: 12px 'PT Sans';
+	color: #181818;
+}
+hr {
+	border-top: 1px solid #d1d1d1;
+}
+h1 {
+	font: bold 22px 'Cormorant Garamond';
+}
+h2 {
+	font: bold 17px 'Cormorant Garamond';
+	color: #6D9E11;
+}
+h3 {
+	font: bold 12px 'PT Sans';
+}
+h4 {
+	font: bold 22px 'Cormorant Garamond';
+}
+h5 {
+	font: bold 12px 'Cormorant Garamond';
+}
+p {
+	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 22px;
+}
+a,a:hover,a:focus,a:visited{
+	text-decoration: none;
+	color: #6D9E11;
+}
+header .treatments{
+	display: none;
+}
+header .treatments ul{
+	padding: 0px;
+	list-style: none;
+}
+header .treatments ul li{
+	margin: 10px;
+}
+header .collapse-icon{
+	background: url('../img/arrow-down-white.svg');
+	background-repeat: no-repeat;
+	background-position: right center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    right: 35%;
+    top: 0px;
+}
+footer{
+	height: 60px;
+	background-color: #e7f4cf;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    color: #6D9E11;
+}
+footer p{
+	margin-bottom: 0px;
+}
+.no-padding {
+	padding: 0;
+}
+.no-padding-right {
+	padding-right: 0;
+}
+.no-padding-left {
+	padding-left: 0;
+}
+.navbar-toggle{
+	margin-top: 16px;
+}
+.logo-wrapper{
+	text-align: center;
+}
+.logo-wrapper .navbar-brand,.logo-wrapper h3{
+	background-color: #fff;
+	color: #98C647;
+}
+.logo-wrapper .navbar-brand{
+	font-size: 22px;
+}
+.logo-wrapper img{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+    left: 34%;
+    top: 5%;
+}
+.logo-wrapper h1{
+	display: inline-block;
+}
+.logo-wrapper h3{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.02em;
+	font-size: 22px;
+}
+.navbar-default,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+	background-color: #fff;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+	color: #98C647;
+	font-weight: bold;
+	background-color: #fff;
+}
+nav a,.navbar-default .navbar-brand,.logo-wrapper h1{
+	color: #98C647;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #000;
+	font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #98C647;
+}
+.logo-wrapper img{
+	width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 5%
+	}
+@media all and (min-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+	h3 {
+		font-size: 12px;
+	}
+	h4 {
+		font-size: 26px;
+	}
+	h5 {
+		font-size: 14px;
+	}
+	p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.navbar-header{
+		float: none;
+	}
+	.navbar-nav{
+		display: flex;
+    	float: none;
+    	justify-content: center;
+	}
+	.logo-wrapper h3{
+		margin-top: 0px;
+	}
+	.logo-wrapper img{
+	width: 40px;
+    height: 40px;
+    left: 30%;
+    top: 5%
+	}
+	.logo-wrapper h3{
+		width: 64%;
+		text-align: right;
+	}
+	header .treatments{
+		position: absolute;
+		display: none;
+		background-color: #fff;
+		color: #6D9E11;
+		z-index: 1;
+		left: -35px;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+		width: 190px;
+		text-align: center;
+	}
+	header .treatment-hover:hover>.treatments{
+		display: block !important;
+	}
+}
+@media all and (min-width: 1015px) {
+	h1 {
+		font-size: 32px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 14px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.logo-wrapper .navbar-brand{
+		font-size: 22px;
+	}
+	.logo-wrapper img{
+		width: 50px;
+		height: 50px;
+		left: 34%;
+		top: 5%;
+	}
+}
+.navbar-default a.navbar-brand:first-of-type{
+	width: 82%;
+	text-align: right;
+}
+.navbar-default .navbar-brand.caption{
+	font-size: 14px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.02em;
+	padding-top: 0px;
+    line-height: normal;
+	height: auto;
+	width: 80%;
+	text-align: right;
+}
