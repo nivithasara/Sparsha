@@ -4,6 +4,9 @@ font-size: 24px;
 .logo-wrapper{
     margin: 0px;
 }
+.contact-section{
+    min-height: 300px;
+}
 .ayurveda{
     background-color: #e7f4cf;
     padding-top: 15px;
@@ -17,6 +20,9 @@ font-size: 24px;
 .ayurveda .ayurveda-content ul{
     padding: 0px;
     font-size: 16px;
+}
+.treatment-images .oil-book.def-image img{
+    width: 250px;
 }
 .ayurveda .ayurveda-content ul li{
     list-style-type: none;
